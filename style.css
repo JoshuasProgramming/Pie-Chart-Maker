@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to left, #d7d2cc, white);
+}
+
+h1{
+    font-size:50px;
+    text-align:center;
+    font-family:Tahoma, sans-serif;
+}
+
+label{
+    font-size:19px;
+    font-family:Tahoma, sans-serif;
+}
+
+.title-input, .data-values-input, .data-label-input{
+    font-size:25px;
+    border:none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    outline:none;
+    margin:0px -2px;
+}
+
+.draw-btn{
+    margin:30px 540px;
+    height:50px;
+    width:250px;
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+    border-radius:40px;
+    border:1px solid black;
+    opacity:75%;
+}
+
+.draw-btn:hover{
+    opacity:100%;
+    cursor:pointer;
+}
+
+.my-chart{
+
+    margin:0px 220px;
+}
+
+.download-btn{
+    margin:35px 365px;
+    height:50px;
+    width:600px;
+    font-size:25px;
+    font-family:Tahoma, sans-serif;
+    border-radius:40px;
+    border:1px solid black;
+    opacity:75%;
+}
+
+.download-btn:hover{
+    opacity:100%;
+    cursor:pointer;
+}

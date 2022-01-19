@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pie Chart</title>
+</head>
+<body>
+    <h1>Pie Chart Maker</h1>
+    <div class="container" id="container">
+        <label for="title">Enter title</label>
+        <input id="title" class="title-input" autocomplete="off">
+
+        <label for="data_labels">Enter data labels</label>
+        <input id="data_labels" class="data-label-input" autocomplete="off">
+
+        <label for="data_values">Enter data values</label>
+        <input id="data_values" class="data-values-input" autocomplete="off">
+
+        <button id="draw" class="draw-btn">Draw</button>
+
+        <canvas id="myChart" class="my-chart" style="width:100%;max-width:900px">
+            h1 <br> h1 <br> h1
+        </canvas>
+    </div>
+
+    
+    
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
